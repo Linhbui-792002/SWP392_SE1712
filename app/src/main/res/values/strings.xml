@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">demo1</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="username_hint">Enter username here</string>
+    <string-array name="campus">
+        <item>Hà Nội</item>
+        <item>HCM</item>
+        <item>Cần thơ</item>
+    </string-array>
+</resources>
