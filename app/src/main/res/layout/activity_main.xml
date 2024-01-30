@@ -93,6 +93,12 @@
             android:layout_height="wrap_content"
             android:text="Edit user"
             />
+        <Button
+            android:id="@+id/button_create_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Product"
+            />
     </LinearLayout>
 
     <LinearLayout

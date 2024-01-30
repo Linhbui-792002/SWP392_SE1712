@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         checkBoxRemember = findViewById(R.id.check_box_remember);
         btnLogin = findViewById(R.id.button_login);
         btnEditUser = findViewById(R.id.button_edit_user);
-
+        Button btnCreateProduct = findViewById(R.id.button_create_product);
         databaseHandle = new DatabaseHandle(this);
 
         ArrayAdapter<CharSequence> arrayAdapter = ArrayAdapter.createFromResource(this,
@@ -154,6 +154,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             }
         });
 
+        btnCreateProduct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CeateProductActivity.class);
+                startActivity(intent);
+            }
+        });
 //    btnEditUser.setOnClickListener(new View.OnClickListener() {
 //        @Override
 //        public void onClick(View v) {
